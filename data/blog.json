@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Top 10 Ethical Hacking Tools for Beginners",
+      "summary": "Discover the essential tools every ethical hacker should know to start learning penetration testing safely.",
+      "author": "CyberAlpha",
+      "date": "2025-08-18",
+      "url": "blog/top-10-hacking-tools.html"
+    },
+    {
+      "id": 2,
+      "title": "Understanding Linux Security for Pentesters",
+      "summary": "A guide to securing Linux systems and exploring security features for penetration testing.",
+      "author": "CyberAlpha",
+      "date": "2025-08-15",
+      "url": "blog/linux-security-guide.html"
+    },
+    {
+      "id": 3,
+      "title": "Latest Cybersecurity News & Breaches",
+      "summary": "Stay informed about recent breaches, vulnerabilities, and cybersecurity updates worldwide.",
+      "author": "CyberAlpha",
+      "date": "2025-08-10",
+      "url": "blog/cybersecurity-news.html"
+    },
+    {
+      "id": 4,
+      "title": "CTF Challenges for Beginners",
+      "summary": "Step-by-step walkthrough of beginner-friendly Capture The Flag exercises.",
+      "author": "CyberAlpha",
+      "date": "2025-08-12",
+      "url": "blog/ctf-challenges.html"
+    },
+    {
+      "id": 5,
+      "title": "Web Application Vulnerabilities Explained",
+      "summary": "Learn common web vulnerabilities like XSS, CSRF, SQL Injection, and how to test for them ethically.",
+      "author": "CyberAlpha",
+      "date": "2025-08-08",
+      "url": "blog/web-vulnerabilities.html"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Ambassadors - Cybersquad</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/animations.css">
+    <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <style>
+        /* Lead Ambassador Highlight */
+        .lead-ambassador {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .lead-ambassador img {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #00ffff;
+            margin-bottom: 1rem;
+        }
+        .lead-ambassador h3 {
+            color: #00ffff;
+            margin-bottom: 0.5rem;
+        }
+        .lead-ambassador p {
+            color: #aaa;
+            font-size: 1rem;
+        }
+
+        /* Ambassador Grid */
+        .ambassadors-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .ambassador {
+            background: #111;
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .ambassador:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 15px #00ffff;
+        }
+        .ambassador img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            border: 2px solid #00ffff;
+        }
+        .ambassador h3 {
+            margin-bottom: 0.5rem;
+            color: #00ffff;
+        }
+        .ambassador p {
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">CYBERSQUAD</div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="blog.html">Blogs</a></li>
+            <li><a href="student-ambassadors.html" class="active">Ambassadors</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <h1 class="neon-text">STUDENT AMBASSADORS</h1>
+        <p>Meet our student ambassadors representing Cybersquad in their institutions</p>
+        <a href="https://forms.monday.com/forms/52574051ab617858d4497ea8c97e2765?r=apse2" class="btn btn-primary">Apply Now</a>
+    </section>
+    <!-- Ambassadors Grid -->
+    <main>
+        <section class="content-section">
+            <div class="container ambassadors-grid">
+                <div class="ambassador">
+                    <img src="../assets/images/ambassador1.jpg" alt="Ambassador 1">
+                    <h3>Sannan Ahmed</h3>
+                    <p>Institute of Management Sciences Peshawer</p>
+                </div>
+                <div class="ambassador">
+                    <img src="../assets/images/ambassador2.jpg" alt="Ambassador 2">
+                    <h3>Manahil Irfan</h3>
+                    <p>Institute of Management Sciences Peshawer</p>
+                </div>
+                <div class="ambassador">
+                    <img src="../assets/images/ambassador3.jpg" alt="Ambassador 3">
+                    <h3>Shayan Arif</h3>
+                    <p>Institute of Management Sciences Peshawer</p>
+                </div>
+                <div class="ambassador">
+                    <img src="../assets/images/ambassador4.jpg" alt="Ambassador 4">
+                    <h3>Nisma Munawar</h3>
+                    <p>The Islamia University of Bahawalpur</p>
+                </div>
+                <!-- Add more ambassadors here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Cybersquad. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

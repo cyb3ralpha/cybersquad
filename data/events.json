@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Cybersecurity Workshop",
+      "description": "Hands-on workshop on ethical hacking techniques, penetration testing, and network security fundamentals.",
+      "date": "2025-09-10",
+      "time": "10:00 AM - 4:00 PM",
+      "location": "Online / Virtual",
+      "registration_url": "#"
+    },
+    {
+      "id": 2,
+      "title": "CTF Challenge",
+      "description": "Participate in a Capture The Flag (CTF) cybersecurity competition and solve real-world challenges.",
+      "date": "2025-10-05",
+      "time": "12:00 PM - 6:00 PM",
+      "location": "Online / Virtual",
+      "registration_url": "#"
+    },
+    {
+      "id": 3,
+      "title": "Webinar: Ethical Hacking 101",
+      "description": "Learn the basics of ethical hacking, web vulnerabilities, and security best practices in this live webinar.",
+      "date": "2025-11-12",
+      "time": "3:00 PM - 5:00 PM",
+      "location": "Zoom Webinar",
+      "registration_url": "#"
+    },
+    {
+      "id": 4,
+      "title": "Linux Security Lab",
+      "description": "Interactive lab session to practice Linux hardening, security auditing, and penetration testing techniques.",
+      "date": "2025-11-20",
+      "time": "11:00 AM - 3:00 PM",
+      "location": "Online / Virtual",
+      "registration_url": "#"
+    },
+    {
+      "id": 5,
+      "title": "Networking Exploitation Workshop",
+      "description": "Learn network security analysis, packet capture, and ethical exploitation in practical exercises.",
+      "date": "2025-12-05",
+      "time": "1:00 PM - 5:00 PM",
+      "location": "Online / Virtual",
+      "registration_url": "#"
+    }
+  ]
+}
