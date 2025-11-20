@@ -10,10 +10,10 @@
     <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
 
     <style>
-        /* Membership Grid (Same as Team Grid Style) */
+        /* Membership Cards Style (Matches Team Page Cards) */
         .membership-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 2rem;
             margin-top: 3rem;
         }
@@ -23,64 +23,50 @@
             padding: 2rem;
             border-radius: 12px;
             text-align: center;
-            transition: transform 0.3s, box-shadow 0.3s;
-            border: 2px solid #00ffff33;
+            border: 2px solid #00ffff;
+            transition: .3s ease;
         }
 
         .membership-card:hover {
-            transform: translateY(-5px);
+            transform: translateY(-7px);
             box-shadow: 0 0 18px #00ffff;
         }
 
         .membership-card h2 {
             color: #00ffff;
-            margin-bottom: 0.8rem;
-            font-size: 1.6rem;
+            margin-bottom: 1rem;
         }
 
         .membership-card p {
-            color: #aaa;
-            margin-bottom: 1.2rem;
-            font-size: 1rem;
-        }
-
-        .membership-features {
             color: #ccc;
-            text-align: left;
-            margin: 1rem 0;
-            font-size: 0.95rem;
+            margin-bottom: 1.2rem;
         }
 
-        .membership-features li {
-            margin-bottom: 0.4rem;
+        .price {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #00ffff;
+            margin-bottom: 1rem;
         }
 
-        .btn-premium {
+        .btn-join {
             display: inline-block;
-            padding: 10px 25px;
+            padding: 10px 22px;
             background: #00ffff;
             color: #000;
-            font-weight: bold;
+            font-weight: 600;
             border-radius: 6px;
-            margin-top: 1rem;
+            text-decoration: none;
         }
 
-        .btn-premium:hover {
-            box-shadow: 0 0 12px #00ffff;
-        }
-
-        .premium-card {
-            border: 2px solid #ffcc00;
-            box-shadow: 0 0 14px #ffcc0077;
-        }
-
-        .premium-card h2 {
-            color: #ffcc00;
+        .btn-join:hover {
+            background: #00b9b9;
         }
     </style>
 </head>
 
 <body>
+
     <!-- Navbar -->
     <header class="navbar">
         <div class="logo">CYBERSQUAD</div>
@@ -95,47 +81,42 @@
         </ul>
     </header>
 
-    <!-- Hero Section -->
+    <!-- Hero Section (Matches Team Page Style) -->
     <section class="hero-section">
-        <h1 class="neon-text">CYBERSQUAD MEMBERSHIP</h1>
-        <p>Choose the plan that empowers your cybersecurity journey</p>
-        <a href="https://discord.gg/xqkFgNdC" class="btn btn-primary">JOIN US</a>
+        <h1 class="neon-text">MEMBERSHIP</h1>
+        <p>Become part of the fastest-growing cybersecurity community</p>
+        <a href="https://discord.gg/xqkFgNdC" class="btn btn-primary">JOIN DISCORD</a>
     </section>
 
-    <!-- Membership Plans -->
+    <!-- Membership Cards -->
     <main>
         <section class="content-section">
             <div class="container membership-grid">
 
                 <!-- Free Plan -->
                 <div class="membership-card">
-                    <h2>Free Membership</h2>
-                    <p>Perfect for students and beginners</p>
-
-                    <ul class="membership-features">
-                        <li>✔ Access to public Discord channels</li>
-                        <li>✔ Weekly cybersecurity discussions</li>
-                        <li>✔ Free learning resources</li>
-                        <li>✔ Access to public events</li>
-                    </ul>
-
-                    <a href="#" class="btn-premium">Join Free</a>
+                    <h2>FREE MEMBERSHIP</h2>
+                    <p>Perfect for beginners exploring cybersecurity.</p>
+                    <div class="price">$0</div>
+                    <p>✔ Access to Discord Community</p>
+                    <p>✔ Free Cyber Guides</p>
+                    <p>✔ Monthly Community Events</p>
+                    <p>❌ Premium Tools</p>
+                    <p>❌ 1-on-1 Mentorship</p>
+                    <a href="https://discord.gg/xqkFgNdC" class="btn-join">Join Free</a>
                 </div>
 
-                <!-- Pro Plan -->
-                <div class="membership-card premium-card">
-                    <h2>Pro Membership</h2>
-                    <p>Unlock exclusive perks and advanced resources</p>
-
-                    <ul class="membership-features">
-                        <li>⭐ Private premium channels</li>
-                        <li>⭐ Premium cybersecurity tools</li>
-                        <li>⭐ Monthly mentorship sessions</li>
-                        <li>⭐ Exclusive workshops & labs</li>
-                        <li>⭐ Early access to events</li>
-                    </ul>
-
-                    <a href="#" class="btn-premium" style="background:#ffcc00;color:#000;">Upgrade to Pro</a>
+                <!-- Pro Membership -->
+                <div class="membership-card">
+                    <h2>PRO MEMBERSHIP</h2>
+                    <p>For students who want to level up their skills.</p>
+                    <div class="price">$5/mo</div>
+                    <p>✔ Everything in Free</p>
+                    <p>✔ Weekly Workshops</p>
+                    <p>✔ Private Cyber Labs</p>
+                    <p>✔ Certification Guidance</p>
+                    <p>✔ Special Role on Discord</p>
+                    <a href="#" class="btn-join">Upgrade to Pro</a>
                 </div>
 
             </div>
